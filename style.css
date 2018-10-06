@@ -1,8 +1,31 @@
 body {
     margin: 0;
     padding: 0;
+    background: #262626;
 }
 
 h1 {
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    transition: 0.5s linear;
+}
+
+h1 span {
+    background: #000;
+    display: inline-block;
+    font-size: 3rem;
+    height: 3rem;
+    width: 3rem;
+    padding: 20px;
+    margin: 8px;
+    color: #262626;
+    text-align: center;
+    line-height: 3rem;
+    transition: 1.0s;
+    transform: rotateY(0deg);
 }
